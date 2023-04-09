@@ -1,0 +1,15 @@
+For lambda layer not present in your region – use ARN.   
+my region – us east 1.  
+
+Main bucket: youtube-stats-bucket-useast1-dev  
+Storage bucket: youtube-stats-bucket-useast1-cleansed-dev   
+Athena Bucket: youtube-stats-bucket-athena-job   
+Analytics Bucket: youtube-stats-bucket-useast1-analytics-dev  
+*storage/cleansed bucket used in athena is output query location    
+  
+DB used in Athena for output query storage: youtube-stats-bucket-crawler-db  
+File asked to crawl using Glue and generate output: raw_statistics_reference_data  
+
+Crawler name: youtube-stats-glue-catalog1  
+
+
